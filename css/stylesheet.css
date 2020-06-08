@@ -11,18 +11,32 @@ body
     padding-top: 0px;
     background-color: #f6b319; 
 }
+.navbar-brand h1
+{
+    font-family: 'Lora',sans-serif; 
+    color: #557c3e;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+    font-weight: bold;
+    font-size: 1.5em; 
+    padding-top: 30px;
+    font-size: 32px;  
+    margin-bottom: 0px;
+}
+.navbar-brand p span
+{
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+}
 .navbar-brand>img
 {
     width: 100px;
     height: 100px;
     float:left;
-}
-.navbar-brand h1
-{
-    font-family: 'Lora', serif;
-    padding-top: 30px;
-    font-size: 32px;
-}
+}  
+
 .nav-item
 {
     margin-left: 0px;
