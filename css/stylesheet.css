@@ -5,3 +5,27 @@ body
     color: #fff;
     font-family: 'Oxygen', sans-serif;
 }
+/* header  */
+.navbar
+{       
+    padding-top: 0px;
+    background-color: #f6b319; 
+}
+.navbar-brand>img
+{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+.navbar-brand h1
+{
+    font-family: 'Lora', serif;
+    padding-top: 30px;
+    font-size: 32px;
+}
+.nav-item
+{
+    margin-left: 0px;
+    padding: 70px 80px 0px 0px;
+
+}
