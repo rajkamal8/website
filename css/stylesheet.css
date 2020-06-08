@@ -43,3 +43,13 @@ body
     padding: 70px 80px 0px 0px;
 
 }
+#pads
+{
+    padding-right: 50px;
+    vertical-align: middle;
+    
+}
+#pads-extra
+{
+    font-style: italic bold;
+}
