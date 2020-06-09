@@ -52,4 +52,17 @@ body
 #pads-extra
 {
     font-style: italic bold;
+    
+}
+#nav-list a{
+    text-align: center;
+    color: #951C49;
+}
+#nav-list a:hover
+{
+    background-color: #E7E7E7;
+}
+#nav-list a span
+{
+    font-size: 1.8em;
 }
