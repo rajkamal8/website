@@ -1,60 +1,115 @@
-*{
+*
+{
     box-sizing: border-box;
 }
-.header-mod
+h1
 {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align:center;
+    margin-bottom: 15px;
 }
-
-.row
-{
+/*simple responsive frame work*/
+.row{
     width: 100%;
 }
-.unit,.col-lg,.col-md,.col-sm
-{
-    border: 1px solid black;
-    height: 160px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
-    margin-left: 23px;
-    margin-right: auto; 
-    
-    
+.item
+{    
+    background-color:gray;
+    position: relative;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 1px;
+
 }
-.unit>h2
+h2
 {
     text-align: right;
-    
 }
-h2>span
+p,h2
 {
-    background-color: red;    
+    
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
 }
+h2>span{
+    background-color: red;
+}
+/* larger device only */
 @media (min-width:992px)
 {
-    .col-lg
+    .col-lg-3,.col-lg-4,.col-lg-6,.col-lg-12
     {
         float:left;
-        width: 31%;
+        border: 1px solid green;
     }
     
-}
-
-@media (min-width:768px)and(max-width:991px)
-{
-    .col-md
+    .col-lg-3
     {
-        float:left;
-        width: 47.33%; 
+        width: 25%;
+    }
+    .col-lg-4
+    {
+        width: 33%;
+    }
+    
+    .col-lg-6
+    {
+        width: 50%;
+    }
+    
+    .col-lg-12
+    {
+        width: 99%;
     }
 }
-
+@media (min-width:768px) and (max-width:991px)
+{
+    .col-md-3,.col-md-4,.col-md-6,.col-md-12
+    {
+        float: left;
+        border: 1px solid green;
+    }
+    .col-md-3
+    {
+        width: 25%;
+    }
+    .col-md-4
+    {
+        width: 33%;
+    }
+    .col-md-6
+    {
+        width: 49%;
+    }
+    .col-md-12
+    {
+        width: 100%;
+    }
+} 
 @media (max-width:767px)
 {
-    .col-sm
+    .col-sm-3,.col-sm-4,.col-sm-6,.col-sm-12
     {
-        float:left;
-        width: 97.33%;
+        float: left;
+        border: 1px solid green;
     }
+    
+    .col-sm-3
+    {
+        width: 25%;
+    }
+    .col-sm-4
+    {
+        width: 33%;
+    }
+    
+    .col-sm-6
+    {
+        width: 50%;
+    }
+    .col-sm-12
+    {
+        width: 100%;
+    }
+
 }
