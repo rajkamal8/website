@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 55px;
+}
+/* below header */
+article{
+    border: 2px solid black;
+    background-color:#D3D3D3 ;
+    position: relative;    
+    height: 170px;
+}
+#section1>h2,#section2>h2,#section3>h2
+{
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 55px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+    border: 2px solid black; 
+    overflow: hidden;
+}
+#colr1
+{
+    background-color: red;
+}
+
+#colr2
+{
+    background-color: #ffcccb;
+}
+
+#colr3
+{
+    background-color: lightblue;
+}
+
+
+.item
+{
+    margin: 0px 18px 15px 20px;
+    overflow: hidden;
+}
+p
+{
+    width: 95%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px)
+{
+    .col-lg
+    {
+        width: 30%;
+        float: left;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .col-md,.col-md-2
+    {
+        float:left;
+    }
+    .col-md
+    {
+        width: 45%;
+    }
+    .col-md-2
+    {
+        width: 94.5%;
+    }
+
+   
+} 
+@media (max-width:767px)
+{
+    .col-sm
+    {
+        width: 94.5%;
+        float:left;
+    }
+    
+
+}
