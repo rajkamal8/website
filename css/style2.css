@@ -175,7 +175,96 @@ body
     opacity: .8;
 }
 /* end of the homepage */
+/* 
+for menu category page
+*/
+.category-tile
+{   
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    
+}
+.category-tile span
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    opacity: .8;
+    color: #fff;
+}
+.category-tile:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-cat-tile + div
+{
+    margin-bottom: 50px;
+}
+/* end of the menu category page */
 
+/* start of the special page  */
+.menu-item-tile
+{
+    margin-bottom:50px;
+}
+.menu-item-tile hr
+{
+    width: 80%;
+}
+.menu-item-tile .menu-item-price
+{
+    font-size: 1.1em;
+    text-align: center;
+    margin-right: -15px;
+    margin-top: -15px;
+
+}
+.menu-item-tile.menu-item-price span
+{
+    font-size: .6em;
+}
+.menu-item-photo
+{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+    margin-right: -15px;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description
+{
+    padding-right: 30px;
+}
+h3.menu-item-title
+{
+    margin: 0 0 10px;
+}
+.menu-item-details
+{
+    font-size: .9em;
+    font-style: italic;
+}
 /* ************************************************************************************/
 /* media queries */
 /* for larger devices */
@@ -304,8 +393,18 @@ body
     {
         width: 50%;
     }
-    
-   
+    .menu-item-photo
+    {
+        margin-right: auto;
+    }
+    .menu-item-tile.menu-item-price
+    {
+        text-align: center;
+    }
+   .menu-item-description
+   {
+       text-align: center;
+   }
 }
 @media(max-width:479px)
 {
@@ -319,6 +418,17 @@ body
         width: 280px;
         margin: 0px auto 15px;
     }
+    .col-xxs-12
+    {
+        
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+
 
 }
 
