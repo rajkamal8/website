@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Oxygen',sans-serif;
+}
+#header-nav
+{
+    border: 0;
+    border-radius: 0;
+    background-color: lightgray;
+}
+.navbar-brand
+{
+    padding-top: 30px;
+}
+.navbar-brand h1 
+{
+    font-family: 'Lora',serif;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-size: 1.9em;
+
+}
